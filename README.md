@@ -1,2 +1,2 @@
-# portifolio
+# portifólio
 Desenvolvimento de uma página web para portifólio pessoal
