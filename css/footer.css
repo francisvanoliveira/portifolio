@@ -37,6 +37,22 @@
   color: #8f8f8f;
 }
 
+#link-topo {
+  position: fixed;
+  right: 8rem;
+  bottom: 3rem;
+  width: 3rem;
+  height: 3rem;
+  background: #70DA1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  border-radius: .3rem;
+  box-shadow: 0 0.1rem 0.3rem #000000;
+  text-decoration: none;
+}
+
 @media (max-width: 800px) {
   .footer-container {
     grid-template-columns: 1fr;
