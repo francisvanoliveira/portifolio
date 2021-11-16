@@ -61,4 +61,11 @@
   .footer-contato li {
     font-size: 1rem;
   }
+  #link-topo{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
 }
