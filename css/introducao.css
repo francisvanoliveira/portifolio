@@ -18,12 +18,12 @@
 .introducao h1::before {
   content: "";
   display: block;
-  width: 130px;
+  width: 120px;
   height: 100px;
-  background: url("../img/detalhe.svg") no-repeat center;
+  background: url("../img/detalhenovo.svg") no-repeat center;
   position: absolute;
-  top: -15px;
-  left: -40px;
+  top: -20px;
+  left: -70px;
   z-index: -1;
 }
 

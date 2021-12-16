@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Francisvan Oliveira</title>
-  <meta name="description" content="Desenvolvedor Front End e Wordpress Localizado em Manaus Amazonas">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-  <header class="header" id="home">
-    <img src="./img/Francisvan.jpg" alt="Lobo" width="304" height="38">
-    <!--<h1>Francisvan Oliveira</h1>-->
-    <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="introducao">
-    <img src="./img/perfil.jpg" alt="Lobo Cinza" width="360" height="520">
+<main class="introducao">
+    <img src="<?php echo INCLUDE_PATH; ?>./img/perfil.jpg" alt="Lobo Cinza" width="360" height="520">
     <div>
       <h1>Estudante Dev</h1>
       <p>Localizado em Manaus - Amazonas</p>
@@ -111,24 +87,3 @@
       </div>
     </div>
   </section>
-
-  <footer class="footer" id="contato">
-    <div class="footer-container">
-      <!--<p class="footer-texto">Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>-->
-      <ul class="footer-contato">
-        <li>francisvan.oliveira@francisvan.com.br</li>
-        <li>+55 92 99276-8775</li>
-        <li><a href="https://www.instagram.com/francisvan_oliveira/">Instagram @francisvan_oliveira</a></li>
-        <li><a href="https://github.com/francisvanoliveira">Github /francisvanoliveira</a></li>
-      </ul>
-      <p class="footer-copy">Francisvan Oliveira. Todos os direitos reservados.</p>
-    </div>
-  </footer>
-
-  <a href="#home" id="link-topo">
-    <i class="fas fa-arrow-up"></i>
-  </a>
-
-</body>
-
-</html>
