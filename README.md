@@ -26,6 +26,7 @@ Projeto Portfólio desenvolvido por:
 
 * HTML
 * CSS
+* PHP
 
 ## ⚙️ Softwares utilizados
 
