@@ -12,6 +12,7 @@
 ## 🚀 Objetivo
 
 Criar uma página web para portfólio profissional.
+Projeto passando por reformulação. Projeto Pottifílio versão 2.0
 
 ## ✒️ Autor
 
