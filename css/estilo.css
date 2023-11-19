@@ -136,14 +136,14 @@ header{
 }
 
 
-.titulo-animado h1 {
+.animated-title h1 {
     max-width: 450px;
     text-align: center;
     margin: 60px auto;
     color: #fff;
 }
 
-.titulo-animado h1::after {
+.animated-title h1::after {
     content: '|';
     opacity: 1;
     margin-left: 5px;
@@ -228,8 +228,8 @@ header{
     color: var(--green);
 }
 
-/* featured */
-.featured-item{
+/* projects */
+.projects-item{
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -238,7 +238,7 @@ header{
     -o-transition: var(--trans);
     transition: var(--trans);
 }
-.featured-item::after{
+.projects-item::after{
     content: "";
     position: absolute;
     top: 0;
@@ -250,7 +250,7 @@ header{
     background: -o-linear-gradient(top, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
     background: linear-gradient(to bottom, transparent 0%, transparent 18%, rgba(0, 0, 0, 0.8) 99%, rgba(0, 0, 0, 0.8) 100%);
 }
-.featured-item-content{
+.projects-item-content{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -265,58 +265,53 @@ header{
     -o-transition: var(--trans);
     transition: var(--trans);
 }
-.featured-item-content span{
+.projects-item-content span{
     font-size: 1.2rem;
     display: block;
     margin-bottom: 1.2rem;
     text-transform: capitalize;
 }
-.featured-item-content .text{
+.projects-item-content .text{
     color: #fff;
     -webkit-transition: var(--trans);
     -o-transition: var(--trans);
     transition: var(--trans);
 }
-.featured-item:hover .featured-item-content{
+.projects-item:hover .projects-item-content{
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
 }
 
-/* services */
-#services{
-    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/services-bg.jpg) center/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/services-bg.jpg) center/cover no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/services-bg.jpg) center/cover no-repeat;
-*/
-    /*background-color: var(--green);*/
+/* experience */
+#experience{
     background-color: #0e4659;
 }
-#services *{
+#experience *{
     color: #fff;
 }
-.services-item{
+.experience-item{
     text-align: center;
     padding: 2rem 0.5rem;
     margin: 2rem 0;
 }
-.services-icon{
+.experience-icon{
     font-size: 3.2rem;
 }
-.services-item h3{
+.experience-item h3{
     margin: 1rem 0;
     font-size: 1.6rem;
 }
-.services-item .btn{
+/* .experience-item .btn{
     margin-top: 1.6rem;
     display: inline-block;
-}
+} */
 
-/* testimonials */
-#testimonials{
+/* training */
+#training{
     background-color: var(--light-grey);
 }
-.test-item{
+.training-item{
     border: 2px solid var(--light-grey);
     padding: 2rem 1rem;
     position: relative;
@@ -325,11 +320,12 @@ header{
     margin: 2rem 0 3rem 0;
 }
 
-.test-item h3, p{
+.training-item h3, p{
     color: #fff;
 }
 
-.test-item-info{
+/* procurar test-item0info*/
+/* .test-item-info{
     position: absolute;
     top: 110%;
     left: 50%;
@@ -346,10 +342,10 @@ header{
 }
 .test-item-info h3{
     font-size: 1rem;
-}
+} */
 
 /* video */
-.video-wrapper{
+/* .video-wrapper{
     height: 500px;
     position: relative;
 }
@@ -378,7 +374,7 @@ header{
     -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
             transform: scale(1.1);
-}
+} */
 
 /* footer */
 footer{
@@ -711,20 +707,20 @@ header.header-sm{
     margin-bottom: 2.5rem;
 }
 
-/* facts */
-#facts{
+/* skills */
+#skills{
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/bg_habilidade.jpg) center/cover no-repeat;
     background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg_habilidade.jpg) center/cover no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg_habilidade.jpg) center/cover no-repeat;
     min-height: 70vh;
 }
-#facts .title-wrap{
+#skills .title-wrap{
     color: #fff;
 }
-#facts .sm-title{
+#skills .sm-title{
     color: #fff;
 }
-.facts-item{
+.skills-item{
     color: #fff;
     text-align: center;
     padding: 2rem 0;
@@ -732,12 +728,12 @@ header.header-sm{
 .facts-icon{
     font-size: 3.2rem;
 }
-.facts-info i{
+.skills-info i{
     font-size: 4rem;
     display: block;
     margin: 1rem 0;
 }
-.facts-info .text{
+.skills-info .text{
     text-transform: uppercase;
 }
 

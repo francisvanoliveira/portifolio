@@ -1,8 +1,5 @@
-
-
-
 @media screen and (max-width: 460px){
-    .featured-item-content{
+    .projects-item-content{
         -webkit-transform: translateY(68%);
             -ms-transform: translateY(68%);
                 transform: translateY(68%);
@@ -10,13 +7,13 @@
 }
 
 @media screen and (min-width: 678px){
-    .test-item::after{
+    .training-item::after{
         left: 4rem;
         -webkit-transform: translateX(0);
             -ms-transform: translateX(0);
                 transform: translateX(0);
     }
-    .test-item-info{
+    .training-item-info{
         left: 1rem;
         -webkit-transform: translateX(0);
             -ms-transform: translateX(0);
@@ -34,12 +31,12 @@
     .header-title p{
         font-size: 1.4rem;
     }
-    .featured-row, .services-row, .footer-row, .exp-row{
+    .projects-row, .services-row, .footer-row, .exp-row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
-    .featured-item, .services-item{
+    .projects-item, .experience-item{
         margin: 0;
     }
     .footer-row{
@@ -59,7 +56,7 @@
                 align-items: flex-start;
     }
 
-    .gallery-row, .popular-row, .blog-row, .facts-row{
+    .gallery-row, .popular-row, .blog-row, .skills-row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
@@ -67,10 +64,10 @@
     .gallery-item{
         margin: 0;
     }
-    .popular-row, .facts-row{
+    .popular-row, .skills-row{
         gap: 0;
     }
-    .facts-row{
+    .skills-row{
         -webkit-column-gap: 5rem;
            -moz-column-gap: 5rem;
                 column-gap: 5rem;
@@ -128,7 +125,7 @@
         color: var(--dark);
     }
 
-    .test-row, .about-row{
+    .training-row, .about-row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
@@ -145,7 +142,7 @@
     .about-left{
         margin: 0;
     }
-    .facts-row{
+    .skills-row{
         grid-template-columns: repeat(4, 1fr);
     }
     .contact-row{
@@ -184,7 +181,7 @@
 }
 
 @media screen and (min-width: 1200px){
-    .test-row, .gallery-row{
+    .training-row, .gallery-row{
         grid-template-columns: repeat(3, 1fr);
     }
     .footer-row, .popular-row{
@@ -193,7 +190,7 @@
 }
 
 @media screen and (min-width: 1400px){
-    .featured-row, .services-row{
+    .projects-row, .services-row{
         grid-template-columns: repeat(3, 1fr);
     }
 
