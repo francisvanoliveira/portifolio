@@ -7,10 +7,8 @@
 </span>
 
 <p align="center">Desenvolvimento de uma página web para portifólio pessoal</p>
-
 <div aling="center">
-    <img src="https://user-images.githubusercontent.com/67968651/142749913-982135bb-24cf-422c-aa4f-f9ddad126252.jpg" width="300px">
-    <img src="https://user-images.githubusercontent.com/67968651/142749914-d8c92134-dfd5-4e13-8129-55bce7b8acf2.jpg" width="380px">
+    <img src="https://github.com/francisvanoliveira/portfolio/assets/67968651/f76e4d08-074e-4498-9f2f-d64029416325" width="500px">
 </div>
 
 ## 🚀 Objetivo
