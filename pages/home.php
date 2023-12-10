@@ -1,66 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Francisvan Oliveira</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="google-site-verification" content="c7CEMKXXmokL32i7OCPuBqagwRwyOnvil5qbnJlz8NM" />
-        <link rel="icon" type="image/png" sizes="32x32" href="icone/favicon-16x16.png" />
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
-    <body>
-        <!-- navbar  -->
-        <nav class="navbar">
-            <div class="container flex">
-                <a href="index.html" class="site-brand">
-                    Francisvan<span>Oliveira</span>
-                </a>
-
-                <button type="button" id="navbar-show-btn" class="flex">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div id="navbar-collapse">
-                    <button type="button" id="navbar-close-btn" class="flex">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="fotos.html" class="nav-link">Galeria</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="blog.html" class="nav-link">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="sobremim.html" class="nav-link">Sobre mim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contato.html" class="nav-link">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- end navbar  -->
-
-        <!-- header -->
-        <header class="flex">
+ <!-- header -->
+ <header class="flex">
             <div class="container">
-                <div class="img_home"><img src="/images/inicio.png" alt=""></div>
+                <div class="img_home"><img src="<?php echo INCLUDE_PATH; ?>images/inicio.png" alt=""></div>
                 <div class="header-title animated-title">                    
                     <h1>Olá, sou o Francisvan!</h1>
                     <p>Entusiasta apaixonado por tecnologia, finalista no curso de Análise e Desenvolvimento de Sistemas e imerso no estudo de Desenvolvimento Web. Busco incessantemente aprender para inovar e criar soluções no mundo digital.</p>
                 </div>
             </div>
-        </header>
+</header>
         <!-- header -->
 
-        <!-- projects section -->
-        <section id = "projects" class = "py-4">
+<!-- projects section -->
+<section id = "projects" class = "py-4">
             <div class = "container">
                 <div class = "title-wrap">
                     <h2 class = "lg-title">Projetos</h2>
@@ -69,7 +20,7 @@
 
                 <div class = "projects-row">
                     <div class = "projects-item my-2 shadow">
-                        <img src = "images/tahiti.jpg" alt = "featured place">
+                        <img src = "<?php echo INCLUDE_PATH; ?>images/tahiti.jpg" alt = "featured place">
                         <div class = "projects-item-content">
                             <span>
                                 Tahiti Motel
@@ -82,7 +33,7 @@
                     </div>
 
                     <div class = "projects-item my-2 shadow">
-                        <img src = "images/github.jpg" alt = "featured place">
+                        <img src = "<?php echo INCLUDE_PATH; ?>images/github.jpg" alt = "featured place">
                         <div class = "projects-item-content">
                             <span>
                                 Gerador de QRCode
@@ -94,7 +45,7 @@
                     </div>
 
                     <div class = "projects-item my-2 shadow">
-                        <img src = "images/github.jpg" alt = "featured place">
+                        <img src = "<?php echo INCLUDE_PATH; ?>images/github.jpg" alt = "featured place">
                         <div class = "projects-item-content">
                             <span>
                                 Portifólio
@@ -212,62 +163,3 @@
             </div>
         </section>
         <!-- end training section -->
-
-        <!-- footer -->
-        <footer class = "py-4">
-            <div class = "container footer-row">
-                <div class = "footer-item">
-                    <a href = "index.html" class = "site-brand">
-                        Francisvan<span>Oliveira</span>
-                    </a>
-                    <p class = "text">Estudante Dev</p>
-                    <p class = "text">Manaus/AM - Brasil</p>
-                </div>
-
-                <div class = "footer-item">
-                    <h2>Redes Sociais </h2>
-                    <ul class = "social-links">
-                        <li>
-                            <a href="https://www.instagram.com/francisvan_oliveira/" target="_blank">
-                                <i class = "fab fa-instagram"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/francisvanoliveira" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/francisvan-oliveira-547bab9a/" target="_blank">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class = "footer-item">
-                    <h2>Menu</h2>
-                    <ul>
-                        <li><a href = "#">Home</a></li>
-                        <li><a href = "fotos.html">Galeria</a></li>
-                        <li><a href = "blog.html">Blog</a></li>
-                        <li><a href = "sobremim.html">Sobre mim</a></li>
-                        <li><a href = "contato.html">Contato</a></li>
-                    </ul>
-                </div>
-
-                <div class = "subscribe-form footer-item">
-                    <h2>E-mail</h2>
-                    <p class = "text">francisvan.oliveira@francisvanoliveira.com.br</p>
-                </div>
-            </div>
-            <div>
-                <p class="text">Francisvan Oliveira 2023 - Todos os direitos reservados.</p>
-            </div>
-        </footer>
-        <!-- end of footer -->
-
-        <!-- js -->
-        <script src = "js/script.js"></script>
-    </body>
-</html>
